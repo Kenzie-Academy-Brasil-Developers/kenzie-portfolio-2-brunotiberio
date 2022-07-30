@@ -43,7 +43,7 @@ export const Home = (): JSX.Element => {
                 height={"48px"}
               />
               <Text color="grey4" css={{ marginLeft: "$2" }}>
-                Hello, my name is {userData.nameUser} <HandEffect />
+                Olá, meu nome é {userData.nameUser} <HandEffect />
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
@@ -58,18 +58,19 @@ export const Home = (): JSX.Element => {
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Desenvolvedor front-end e formando em Sistemas de Informação pela Estácio de Sá, meu primeiro contato com tecnologia aconteceu aos 8 anos de idade.
+              Desde então muitas portas se abriram, desde a área de educação (como Professor de Informática) até a comunicação (Repórter, Apresentador) a tecnologia sempre esteve presente.
+              Convido você a desfrutar dos projetos cuidadosamente criados por mim e conhecer minhas tecnologias
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Meus Projetos
               </Button>
               <Button
                 as="a"
                 type="circle"
                 target="_blank"
-                href={userData.githubUser}
+                href={`https://github.com/${userData.githubUser}`}
               >
                 <FaGithub />
               </Button>
@@ -87,12 +88,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Projects created at{" "}
+                Projetos criados para{" "}
                 <Text as="span" color="brand5">
-                  Kenzie Academy
+                  Kenzie Academy Brasil
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

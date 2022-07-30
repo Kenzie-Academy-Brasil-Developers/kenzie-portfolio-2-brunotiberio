@@ -67,6 +67,7 @@ export const Button = styled("button", {
             borderColor: "$socialInstagram",
             color: "$socialInstagram",
           },
+          
         },
         ["&.facebook"]: {
           backgroundColor: "$socialFacebook",

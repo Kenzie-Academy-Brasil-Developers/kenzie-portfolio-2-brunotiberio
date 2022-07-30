@@ -20,16 +20,15 @@ export const stackData = [
     img: imgJS,
   },
   {
-    title: "Node JS",
-    img: imgNode,
+    title: "React",
+    img: imgReact,
   },
   {
     title: "Styled Components",
     img: imgStyled,
   },
-  {
-    title: "React",
-    img: imgReact,
-  },
-  { title: "Vuejs", img: FaVuejs },
+/*   {
+    title: "Styled Components",
+    img: imgStyled,
+  }, */
 ];
