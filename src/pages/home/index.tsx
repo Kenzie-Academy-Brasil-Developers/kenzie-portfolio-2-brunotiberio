@@ -47,15 +47,15 @@ export const Home = (): JSX.Element => {
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                amo
               </Text>{" "}
-              creating and{" "}
+              criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                desenvolver
               </Text>{" "}
-              projects
+              projetos
             </Text>
             <Text type="body1" color="grey2">
               Desenvolvedor front-end e formando em Sistemas de Informação pela Estácio de Sá, meu primeiro contato com tecnologia aconteceu aos 8 anos de idade.
