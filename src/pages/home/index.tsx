@@ -58,7 +58,7 @@ export const Home = (): JSX.Element => {
               projetos
             </Text>
             <Text type="body1" color="grey2">
-              Desenvolvedor front-end e formando em Sistemas de Informação pela Estácio de Sá, meu primeiro contato com tecnologia aconteceu aos 8 anos de idade.
+              Desenvolvedor fullstack e formando em Sistemas de Informação pela Estácio de Sá, meu primeiro contato com tecnologia aconteceu aos 8 anos de idade.
               Desde então muitas portas se abriram, desde a área de educação (como Professor de Informática) até a comunicação (Repórter, Apresentador) a tecnologia sempre esteve presente.
               Convido você a desfrutar dos projetos cuidadosamente criados por mim e conhecer minhas tecnologias
             </Text>

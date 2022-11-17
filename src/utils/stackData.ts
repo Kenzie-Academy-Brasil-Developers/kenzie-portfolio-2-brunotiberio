@@ -4,7 +4,9 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { FaVuejs, FaPython } from "react-icons/fa";
+import { DiDjango } from 'react-icons/di'
+
 
 export const stackData = [
   {
@@ -27,8 +29,16 @@ export const stackData = [
     title: "Styled Components",
     img: imgStyled,
   },
-/*   {
-    title: "Styled Components",
-    img: imgStyled,
-  }, */
+  {
+    title: "Node",
+    img: imgNode,
+  },
+  {
+    title: "Python",
+    img: FaPython,
+  },
+  {
+    title: "Django",
+    img: DiDjango,
+  },
 ];
